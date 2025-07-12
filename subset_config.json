@@ -1,0 +1,194 @@
+{
+    "Pile-CC": {
+        "short_name": "pilecc",
+        "abbr": "cc",
+        "gen_configs": [
+            {
+                "doc_idx": "0_3000",
+                "max_snippets": 30,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "Wikipedia (en)": {
+        "short_name": "wiki",
+        "abbr": "wk",
+        "gen_configs": [
+            {
+                "doc_idx": "0_3000",
+                "max_snippets": 30,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "USPTO Backgrounds": {
+        "short_name": "uspto",
+        "abbr": "us",
+        "gen_configs": [
+            {
+                "doc_idx": "0_6000",
+                "max_snippets": 10,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "Ubuntu IRC": {
+        "short_name": "ubuntu",
+        "abbr": "ub",
+        "gen_configs": [
+            {
+                "doc_idx": "0_20",
+                "max_snippets": 2000,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "FreeLaw": {
+        "short_name": "freelaw",
+        "abbr": "fl",
+        "gen_configs": [
+            {
+                "doc_idx": "0_4000",
+                "max_snippets": 5,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "Enron Emails": {
+        "short_name": "email",
+        "abbr": "em",
+        "gen_configs": [
+            {
+                "doc_idx": "0_1957",
+                "max_snippets": 50,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "EuroParl": {
+        "short_name": "europarl",
+        "abbr": "ep",
+        "gen_configs": [
+            {
+                "doc_idx": "0_290",
+                "max_snippets": 200,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "StackExchange": {
+        "short_name": "stack",
+        "abbr": "se",
+        "gen_configs": [
+            {
+                "doc_idx": "0_4000",
+                "max_snippets": 5,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "ArXiv": {
+        "short_name": "arxiv",
+        "abbr": "ax",
+        "gen_configs": [
+            {
+                "doc_idx": "0_200",
+                "max_snippets": 100,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "Github": {
+        "short_name": "github",
+        "abbr": "gi",
+        "gen_configs": [
+            {
+                "doc_idx": "0_2000",
+                "max_snippets": 20,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "HackerNews": {
+        "short_name": "hacker",
+        "abbr": "ha",
+        "gen_configs": [
+            {
+                "doc_idx": "0_3000",
+                "max_snippets": 10,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "PubMed Abstracts": {
+        "short_name": "pubabs",
+        "abbr": "pa",
+        "gen_configs": [
+            {
+                "doc_idx": "0_6000",
+                "max_snippets": 5,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "PhilPapers": {
+        "short_name": "philpaper",
+        "abbr": "ph",
+        "gen_configs": [
+            {
+                "doc_idx": "0_132",
+                "max_snippets": 100,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "PubMed Central": {
+        "short_name": "pubcentral",
+        "abbr": "pc",
+        "gen_configs": [
+            {
+                "doc_idx": "0_500",
+                "max_snippets": 100,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "DM Mathematics": {
+        "short_name": "dmmath",
+        "abbr": "dm",
+        "gen_configs": [
+            {
+                "doc_idx": "0_1500",
+                "max_snippets": 50,
+                "n_tokens_list": [32],
+                "n_epochs": 100
+            }
+        ]
+    },
+    "NIH ExPorter": {
+        "short_name": "nih",
+        "abbr": "ni",
+        "gen_configs": [
+            {
+                "doc_idx": "0_4000",
+                "max_snippets": 5,
+                "n_tokens_list": [64],
+                "n_epochs": 100
+            }
+        ]
+    }
+}
