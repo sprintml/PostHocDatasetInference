@@ -28,7 +28,7 @@ Under each subdirectory (named as the subsets, e.g. `pile_Pile-CC`), there are f
 In each file, the `text` entry denotes the clean texts, and the other entries denotes the texts with certain text augmentations.
 
 
-## 🛠️ Usage 
+## 🛠️ Reproduce the Full Pipeline 
 
 
 ### 1️⃣ Install the Dependencies
