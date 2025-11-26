@@ -12,7 +12,19 @@ The remarkable capabilities of Large Language Models (LLMs) can be mainly attrib
 - [**GitHub Repository**](https://github.com/sprintml/PostHocDatasetInference): Access the source code, evaluation scripts, and additional resources for our work.
 
 ## 🆕 Updates
-[July 12, 2025] We released our code!
+* [Nov 26, 2025] We released the generated held-out sets for the Pile dataset.
+* [July 12, 2025] We released our initial code.
+
+## 🗂️ Use Our Generated Held-out Sets
+Download our generated held-out sets for the Pile dataset from [Google Drive](https://drive.google.com/file/d/1NijRPbnx4aSYdQuqj9jJa6LxaGBJinAA/view?usp=sharing).
+
+Under each subdirectory (named as the subsets, e.g. `pile_Pile-CC`), there are four files:
+
+1. `train_original.jsonl`: Sequences sampled from the **member** set, natural sequences.
+2. `train_paraphrase0.jsonl`: Our generated held-out set for the above **member** sequences.
+3. `val+test_original.jsonl`: Sequences sampled from the **non-member** set, natural sequences.
+4. `val+test_paraphrase0.jsonl`: Our generated held-out set for the above **non-member** sequences.
+
 
 ## 🛠️ Usage 
 
@@ -129,8 +141,9 @@ python iid_verification_metrics.py --data_dir $DATA_DIR
 ```
 
 ## 👨‍💻 TODOs
+- [x] release the data
 - [ ] clean up the args in sampling files
-- [ ] release the checkpoints and data
+- [ ] release the checkpoints
 
 ## ❤️  Acknowledgement
 The dataset inference part of this repo borrows largely from the Github repo [**LLM Dataset Inference: Did you train on my dataset?**](https://github.com/pratyushmaini/llm_dataset_inference/)
