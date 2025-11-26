@@ -25,6 +25,8 @@ Under each subdirectory (named as the subsets, e.g. `pile_Pile-CC`), there are f
 3. `val+test_original.jsonl`: Sequences sampled from the **non-member** set, natural sequences.
 4. `val+test_paraphrase0.jsonl`: Our generated held-out set for the above **non-member** sequences.
 
+In each file, the `text` entry denotes the clean texts, and the other entries denotes the texts with certain text augmentations.
+
 
 ## 🛠️ Usage 
 
